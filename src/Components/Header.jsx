@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { HiOutlineBars3BottomRight } from "react-icons/hi2";
+import Hero from "./Hero";
 
 const Header = () => {
   const li = (
@@ -13,7 +14,7 @@ const Header = () => {
   );
   return (
     <>
-      <div className="bg-gray-900 rounded-2xl sticky top-3 md:block hidden">
+      <div className="bg-gray-900 rounded-2xl sticky top-3 md:block hidden border border-gray-800 shadow-lg z-10">
         <div className="navbar w-10/12 mx-auto">
           <div className="navbar-start">
             <a className="font-heading text-2xl">
