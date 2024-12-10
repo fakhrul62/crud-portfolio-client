@@ -8,6 +8,10 @@
 * {
   scrollbar-color: #6d6d6d #242424 ;
   scrollbar-width: thin;
+  stroke: rgba(0, 0, 0, 0.634);
+}
+.drawer-button svg{
+  stroke: #d1b055!important;
 }
 html{
   overflow-y: scroll;
