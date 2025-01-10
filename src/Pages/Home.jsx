@@ -1,5 +1,6 @@
 import React from "react";
 import { FaInstagram, FaLinkedinIn, FaGithub, FaSkype } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -13,17 +14,11 @@ const Home = () => {
 
               <div className="divider"></div>
               <div className="flex justify-center gap-5 *:text-2xl hover:*:text-accenth">
-                <a href="">
-                  <FaInstagram />
-                </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/md-fakhrul-alam-shuvo/" target="_blank">
                   <FaLinkedinIn />
                 </a>
-                <a href="">
+                <a href="https://github.com/fakhrul62" target="_blank">
                   <FaGithub />
-                </a>
-                <a href="">
-                  <FaSkype />
                 </a>
               </div>
               <div className="divider"></div>
@@ -39,9 +34,11 @@ const Home = () => {
                 </h4>
               </div>
               <div className="mt-10 text-center">
+                <a href="mailto:ifakhrul23@gmail.com"  target="_blank">
                 <button className="lg:px-10 md:px-5 md:text-base text-xs px-2 font-heading py-2 border border-accent text-accent rounded-full  duration-300">
-                  Contact Me
+                ifakhrul23@gmail.com
                 </button>
+                </a>
               </div>
             </div>
           <div className="lg:col-span-2 lg:order-2 order-1">
