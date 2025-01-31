@@ -14,7 +14,7 @@ const Header = () => {
   );
   return (
     <>
-      <div className="bg-gray-900 rounded-2xl sticky top-3 md:block hidden border border-gray-800 shadow-lg drop-shadow-[0px_-20px_0px_rgba(3,7,18,1)] z-10">
+      <div className="bg-gray-900 rounded-2xl sticky top-3 md:block hidden border border-gray-800 shadow-lg drop-shadow-[0px_-20px_0px_rgba(3,7,18,1)] z-50">
         <div className="navbar w-10/12 mx-auto">
           <div className="navbar-start">
             <a className="font-heading text-2xl">
@@ -27,13 +27,15 @@ const Header = () => {
             </ul>
           </div>
           <div className="navbar-end">
-            <a className="lg:px-20 md:px-10 font-heading py-2 bg-accent hover:bg-accenth text-black rounded-full drop-shadow-me hover:filter-none duration-300">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ifakhrul23@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer" className="lg:px-20 md:px-10 font-heading py-2 bg-accenth hover:bg-white text-black rounded-full drop-shadow-me hover:filter-none duration-300">
               Hire Me
             </a>
           </div>
         </div>
       </div>
-      <div className="bg-gray-900 rounded-2xl sticky top-3 md:hidden border border-gray-800 shadow-lg drop-shadow-[0px_-20px_0px_rgba(3,7,18,1)]">
+      <div className="bg-gray-900 rounded-2xl sticky top-3 md:hidden border border-gray-800 shadow-lg drop-shadow-[0px_-20px_0px_rgba(3,7,18,1)] !z-50">
         <div className="navbar w-10/12 mx-auto">
           <div className="navbar-start w-4/5">
             <a className="font-heading text-2xl">
