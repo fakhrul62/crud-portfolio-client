@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 
 const Skills = () => {
   return (
@@ -6,6 +7,10 @@ const Skills = () => {
       className="bg-[url(https://i.ibb.co.com/yVXWVTY/pexels-rudy-kirchner-278171-1750823.jpg)]  bg-cover bg-no-repeat bg-center mt-3 rounded-2xl"
       style={{ minHeight: "calc(100vh - 102px)" }}
     >
+      <Helmet>
+        <title>My Skills</title>
+        <link rel="canonical" href="https://http://fakhrul.codechronic.com/" />
+      </Helmet>
       <div
         className="py-16 rounded-2xl  bg-[#111827c0]"
         style={{ minHeight: "calc(100vh - 102px)" }}
@@ -33,25 +38,39 @@ const Skills = () => {
               <h2 className="text-xl text-center font-heading font-semibold mb-2">
                 Backend Development
               </h2>
-              <p className="text-center font-body">Node.js, Express, Firebase, MongoDB</p>
+              <p className="text-center font-body">
+                Node.js, Express, Firebase, MongoDB
+              </p>
             </div>
             <div className="skill-card">
-              <h2 className="text-xl text-center font-heading font-semibold mb-2">Version Control</h2>
+              <h2 className="text-xl text-center font-heading font-semibold mb-2">
+                Version Control
+              </h2>
               <p className="text-center font-body">Git, GitHub, GitLab</p>
             </div>
             <div className="skill-card">
-              <h2 className="text-xl text-center font-heading font-semibold mb-2">Web Design</h2>
-              <p className="text-center font-body">UI/UX Design, Figma, Adobe XD</p>
+              <h2 className="text-xl text-center font-heading font-semibold mb-2">
+                Web Design
+              </h2>
+              <p className="text-center font-body">
+                UI/UX Design, Figma, Adobe XD
+              </p>
             </div>
             <div className="skill-card">
               <h2 className="text-xl text-center font-heading font-semibold mb-2">
                 Database Management
               </h2>
-              <p className="text-center font-body">SQL, NoSQL, Firebase Firestore</p>
+              <p className="text-center font-body">
+                SQL, NoSQL, Firebase Firestore
+              </p>
             </div>
             <div className="skill-card">
-              <h2 className="text-xl text-center font-heading font-semibold mb-2">Cloud & Hosting</h2>
-              <p className="text-center font-body">Firebase Hosting, Netlify, Vercel</p>
+              <h2 className="text-xl text-center font-heading font-semibold mb-2">
+                Cloud & Hosting
+              </h2>
+              <p className="text-center font-body">
+                Firebase Hosting, Netlify, Vercel
+              </p>
             </div>
           </div>
         </div>

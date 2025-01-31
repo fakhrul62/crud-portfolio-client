@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { GoArrowUpRight } from "react-icons/go";
 
 const Portfolio = () => {
@@ -7,6 +8,10 @@ const Portfolio = () => {
       className="bg-[url(https://i.ibb.co.com/yVXWVTY/pexels-rudy-kirchner-278171-1750823.jpg)] bg-fixed bg-cover bg-no-repeat bg-center mt-3 rounded-2xl"
       style={{ minHeight: "calc(100vh - 102px)" }}
     >
+        <Helmet>
+                <title>My Portfolio</title>
+                <link rel="canonical" href="https://http://fakhrul.codechronic.com/" />
+              </Helmet>
       <div
         className="py-16 rounded-2xl  bg-[#111827c0]"
         style={{ minHeight: "calc(100vh - 102px)" }}
