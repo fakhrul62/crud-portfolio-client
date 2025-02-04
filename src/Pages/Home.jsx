@@ -1,17 +1,18 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import { FaInstagram, FaLinkedinIn, FaGithub, FaSkype } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   return (
     <div
       className="bg-[url(https://i.ibb.co.com/yVXWVTY/pexels-rudy-kirchner-278171-1750823.jpg)]  bg-cover bg-no-repeat bg-center mt-3 rounded-2xl"
       style={{ minHeight: "calc(100vh - 102px)" }}
-    ><Helmet>
-            <title>Fakhrul Alam</title>
-            <link rel="canonical" href="https://http://fakhrul.codechronic.com/" />
-          </Helmet>
+    >
+      <Helmet>
+        <title>Fakhrul Alam</title>
+        <link rel="canonical" href="https://http://fakhrul.codechronic.com/" />
+      </Helmet>
 
       <div
         className="py-20 rounded-2xl  bg-[#111827c0]"
@@ -22,6 +23,25 @@ const Home = () => {
             <h2 className="font-heading text-center lg:text-xl text-lg font-bold mb-4">
               Full Stack Developer
             </h2>
+            {/* <p className="text-center font-body">
+              <TypeAnimation
+                sequence={[
+                  // Same substring at the start will only be typed out once, initially
+                  "I like to Code",
+                  1000, // wait 1s before replacing "Mice" with "Hamsters"
+                  "I like to Dance",
+                  1000,
+                  "I like to Sing",
+                  1000,
+                  "I like to Laugh",
+                  1000,
+                ]}
+                wrapper="span"
+                speed={400} deletionSpeed={200}
+                style={{ fontSize: "1em", display: "inline-block" }}
+                repeat={Infinity}
+              />
+            </p> */}
 
             <div className="divider"></div>
             <div className="flex justify-center gap-5 *:text-2xl hover:*:text-accenth">
